@@ -4,3 +4,16 @@ body {
 .nav {
   display: flex;
 }
+.nav-left {
+  display: flex;
+}
+.nav-item {
+  padding: 20px;
+}
+.category-list {
+  list-style: none;
+  display: flex;
+}
+.category-list-item {
+  padding-inline:20px;
+}
