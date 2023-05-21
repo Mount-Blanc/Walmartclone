@@ -11,7 +11,13 @@ function App() {
         <div className='nav-item'>Departments</div>
         <div className='nav-item'>Services</div>
       </div>
-      <div>Search</div>
+      <div>Search
+        <form>
+          <div className='nav-input'>
+          <input placeholder='Search everything at Walmart online and in store'/>
+        </div>
+        </form>
+      </div>
       <div className='nav'>navrigh
     <div className='nav-item'>Reorder</div>
     <div className='nav-item'>sign in</div>

@@ -12,7 +12,7 @@ header {
   display: flex;
 }
 .nav-item {
-  padding: 20px;
+  padding: 35px;
 }
 .nav-belt {
   display: flex;
@@ -30,4 +30,14 @@ header {
 }
 .category-list-item {
   padding-inline:20px;
+}
+input {
+  height: 40px;
+  padding-left:1rem;
+  padding-right:2.5rem;
+  border-radius: 40px;
+  flex:1 1 auto
+}
+.nav-input {
+  display: flex;
 }
