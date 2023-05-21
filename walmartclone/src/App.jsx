@@ -18,7 +18,7 @@ function App() {
     <div className='nav-item'>Cart</div>
       </div>
       </div>
-      <nav className='nav'>
+      <nav className='nav-belt'>
         <div>How do you want your items?</div>
         <div>location</div>
         <div>

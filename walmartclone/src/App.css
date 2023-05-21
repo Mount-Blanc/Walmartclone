@@ -1,5 +1,9 @@
 body {
   margin:0;
+  color:white
+}
+header {
+  background-color: #0071dc;
 }
 .nav {
   display: flex;
@@ -10,9 +14,18 @@ body {
 .nav-item {
   padding: 20px;
 }
+.nav-belt {
+  display: flex;
+  border-top: 1px solid white;
+}
+.nav-belt a {
+  color:white;
+  text-decoration: none;
+}
 .category-list {
   list-style: none;
   display: flex;
+  color:white;
 }
 .category-list-item {
   padding-inline:20px;
