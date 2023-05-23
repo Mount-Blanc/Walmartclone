@@ -1,5 +1,5 @@
 import './App.css'
-
+import sloth from './SLOTH.jpg'
 function App() {
 
   return (
@@ -15,6 +15,7 @@ function App() {
         <form>
           <div className='nav-input'>
           <input placeholder='Search everything at Walmart online and in store'/>
+          <button className='search-icon'></button>
         </div>
         </form>
       </div>
@@ -50,6 +51,21 @@ function App() {
         </div>
       </nav>
     </header>
+    <main>
+      <div>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img>
+
+      </div>
+    </main>
     </>
   )
 }

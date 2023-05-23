@@ -53,3 +53,6 @@ form {
   display: flex;
   align-items: center;
 }
+.sloth {
+  width: 20%;
+}
