@@ -44,8 +44,11 @@ input {
 }
 form {
   display: flex;
-  flex:1 1 auto
+  flex:1 1 auto;
+
 }
 .search {
-  flex: 1 1 auto
+  flex: 1 1 auto;
+  display: flex;
+  align-items: center;
 }
