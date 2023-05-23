@@ -40,4 +40,12 @@ input {
 }
 .nav-input {
   display: flex;
+  width:100%;
+}
+form {
+  display: flex;
+  flex:1 1 auto
+}
+.search {
+  flex: 1 1 auto
 }
