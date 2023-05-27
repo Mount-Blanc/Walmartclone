@@ -76,3 +76,16 @@ flex-direction: column;
   width:40%;
   height:40px;
 }
+footer {
+  background-color: #0071dc;
+}
+footer li {
+  list-style: none;
+}
+footer li a {
+  color:white;
+  text-decoration: none;
+}
+footer ul {
+  display: flex;
+}
