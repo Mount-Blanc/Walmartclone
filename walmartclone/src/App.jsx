@@ -52,19 +52,42 @@ function App() {
       </nav>
     </header>
     <main>
-      <div>
+      <div className='section-container'>
+        <div className='container-1'> <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img><img className='sloth' src={sloth}></img>
+</div>
+<div className='container-2'>
         <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
-        <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img><img className='sloth' src={sloth}></img> <img className='sloth sloth-middle-bottom' src={sloth}></img>
+</div>
+<div className='container-3'> <img className='sloth' src={sloth}></img>
+        <img className='sloth' src={sloth}></img><img className='sloth' src={sloth}></img>
+</div>
+       
 
       </div>
+      <footer>
+        <ul>
+          <li>
+            <a href=''>All Departments</a>
+          </li>
+          <li>
+            <a href=''>Store Directory</a>
+          </li><li>
+            <a href=''>Careers</a>
+          </li><li>
+            <a href=''>Our Company</a>
+          </li><li>
+            <a href=''>Sell on Walmart</a>
+          </li><li>
+            <a href=''>Help</a>
+          </li><li>
+            <a href=''>Product Recalls</a>
+          </li><li>
+            <a href=''>Accessiblity</a>
+          </li>
+        </ul>
+      </footer>
     </main>
     </>
   )
